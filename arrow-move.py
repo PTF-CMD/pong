@@ -42,10 +42,3 @@ while True: # main game loop
 			pygame.quit()
 			sys.exit()
 	pygame.display.update()
-
-#	for event in pygame.event.get():
-#					print("hola")
-#					if event.type == KEYUP:
-#						print "keyup"
-#						while event.scancode != 111 and event.scancode != 25:
-#							print "termino arriba"
